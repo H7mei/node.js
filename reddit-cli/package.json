@@ -1,0 +1,19 @@
+{
+  "name": "hanafichoi-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "reddit": "./reddit.mjs"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^3.3.1",
+    "open": "^9.1.0",
+    "yargs": "^17.7.1"
+  }
+}
